@@ -17,11 +17,8 @@ This repository contains code and materials to replicate the paper "Bayesian Ind
 
 ### Structure of the folder
 
-```
 
-
-
-## Replication
+### Replication
 
 All analyses and computations were carried out on 2023 MacBook Pro with an Apple M5 Pro chip, 24 GB memory. All analyses were originally conducted using R version 4.5.3 and the package versions recorded in the attached session info at the bottom of the README. 
 Re-running the pipeline with updated R or package versions, or a different seed, may yield minor numerical differences. These do not affect the paper’s results or conclusions.
