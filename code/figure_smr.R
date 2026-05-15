@@ -3,7 +3,7 @@
 
 #### Figure 1 ####
 
-load('Data/gen_population_pyramids.RData')
+load('data/gen_population_pyramids.RData')
 
 plot_pyramid = data_pyramid %>%
   filter(years %in% c(1751,1800,1850,1900),
@@ -176,7 +176,7 @@ ggsave('figure/Figure4.pdf',plot_TFR_final,height = 30, width = 50, units = "cm"
 
 #### Figure 5 ####
 
-
+mcmc.out_theta_inverse_gamma = mcmc.out_theta_final
 
 bias_plot = mcmc.out_theta_final %>%
   ggplot()+

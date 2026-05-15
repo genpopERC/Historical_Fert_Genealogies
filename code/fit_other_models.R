@@ -15,7 +15,7 @@ source('code/upload_packages.R')
 source('code/model_code.R')
 
 # load model input data
-load('Data/model_data_input.RData')
+load('data/model_data_input.RData')
 
 
 #### Model without Sweden ####
