@@ -28,6 +28,22 @@ This repository contains the code required to replicate all figures and tables p
   
 - The `figure` folder contains the four main figures of the paper saved in .pdf format.
 
+### Code
+After downloading all the data sources, researchers can replicate the figures and tables of the main paper by running the R scripts within the `code` folder.
+
+1. `data_preparetion`: script to transform data from FamiLinx in a suitable format for the main data analysis
+2. `upload_mortality_bounds`: script to generate lower and upper bounds for infant mortality
+3. `upload_packages`: script to upload the packages needed for the data analysis
+4. `helpers`: script to upload R functions needed for the data analysis
+5. `data_input_model`: script to create the inputs needed to fit the Bayesian models
+6. `model_code`: script with the main Bayesian model of the paper written in Nimble
+7. `fit_model_main_paper`: script to run the main Bayesian model
+9. `fit_model_no_gen`: script to run the Bayesian model without FamiLinx data
+10. `indirect_estimation`: script to run the indirect estimation method
+11. `model_tfr_accuracy`: script to compute the accuracy of the TFR estimation methods
+12. `model_validation`: script to conduct out-of-sample validation of the main Bayesian model
+13. `figure_smr`: script to create the figures of the main paper
+    
 
 ### Replication
 
