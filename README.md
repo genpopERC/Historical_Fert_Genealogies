@@ -16,6 +16,17 @@ This repository contains code and materials to replicate the paper "Bayesian Ind
 - [Nicola Barban](https://nicolabarban.com/)
 
 ### Structure of the folder
+This repository contains the code required to replicate all figures and tables presented in the main paper. To reproduce the analyses, follow the steps below:
+
+- Download all data sources into the `data` folder. Most .RData files are available directly in the GitHub repository, while larger datasets are stored in the compressed `data.zip` folder available through the Open Science Framework repository.
+
+- The `code` folder contains all R scripts required to replicate the analyses and results presented in the paper.
+
+- The `results` folder includes .RData files containing the main outputs of the paper, including posterior samples and indirect TFR estimates.
+
+- The `table` folder contains the two main tables of the paper saved in .tex format.
+  
+- The `figure` folder contains the four main figures of the paper saved in .pdf format.
 
 
 ### Replication
