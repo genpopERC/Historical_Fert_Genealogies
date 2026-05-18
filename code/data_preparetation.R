@@ -11,6 +11,9 @@ load("data/data_focal.RData")
 # Death Year>=1751
 # Birth Year<=1910
 # Age at Death>=0 & Age at Death<=110
+# Cleaned data set taken from the publication of 
+# Colasurdo and Omenti (2024)
+
 
 data_final = indicator_demo %>%
   filter(country_birth_final==country_death_final) %>%
@@ -104,6 +107,7 @@ CW_finland = CW_ratio_calculation(finland_population,year_min=1751,year_max=1910
 
 #### Child-Woman Ratios: USA ####
 CW_usa = CW_ratio_calculation(usa_population,year_min=1751,year_max=1910)
+data_input$C
 
 save(CW_sweden,
      CW_eng,
@@ -114,6 +118,7 @@ save(CW_sweden,
      CW_france,
      CW_netherlands,
      file="data/genealogical_data_cw.RData")
+
 
 
 
