@@ -1,6 +1,6 @@
 ## Bayesian Indirect Estimation of Historical Fertility in Europe and US Using Online Genealogical Data
 
-[![OSF](https://img.shields.io/badge/OSF-project-blue)](https://osf.io/bpnyz/overview)
+[![DOI](https://zenodo.org/records/20423970)](https://zenodo.org/records/20423970)
 [![Generic badge](https://img.shields.io/badge/R-4.3.1-orange.svg)](https://cran.r-project.org/bin/macosx/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -18,7 +18,7 @@ This repository contains code and materials to replicate the paper "Bayesian Ind
 ### Structure of the folder
 This repository contains the code required to replicate all figures and tables presented in the main paper. To reproduce the analyses, follow the steps below:
 
-- Download all data sources into the `data` folder. Most .RData files are available directly in the GitHub repository, while larger datasets are stored in the compressed `zenodo_repo.zip` folder available through the Zenodo.
+- Download all data sources into the `data` folder. Most .RData files are available directly in the GitHub repository, while larger datasets are stored in the compressed `zenodo_repo.zip` folder available through Zenodo.
 
 - The `code` folder contains all R scripts required to replicate the analyses and results presented in the paper.
 
